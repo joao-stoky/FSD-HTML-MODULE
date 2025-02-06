@@ -1,0 +1,142 @@
+body {
+  display: grid;
+  place-items: center; /* Centraliza na horizontal e vertical */
+  height: 100vh;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+table {
+  position: absolute; /* Permite colocar a tabela em um local exato */
+  top: 50px; /* Distância do topo */
+  left: 50px; /* Distância da esquerda */
+}
+.bloco-nomecompleto {
+    border: 2px solid #000; /* Borda preta de 2px */
+    padding: 15px; /* Espaçamento interno */
+    width: 50%; /* Largura de 50% da tela (ajuste conforme necessário) */
+    margin: 20px auto; /* Centraliza horizontalmente */
+    border-radius: 10px; /* Cantos arredondados */
+    background-color: #f9f9f9; /* Cor de fundo suave */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    
+  }
+.bloco-sobremim {
+    border: 2px solid #000; /* Borda preta de 2px */
+    padding: 15px; /* Espaçamento interno */
+    width: 50%; /* Largura de 50% da tela (ajuste conforme necessário) */
+    margin: 20px auto; /* Centraliza horizontalmente */
+    border-radius: 10px; /* Cantos arredondados */
+    background-color: #f9f9f9; /* Cor de fundo suave */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Sombra leve */
+  }
+  
+.bloco-formacao {
+  border: 2px solid #000; /* Borda preta de 2px */
+  padding: 15px; /* Espaçamento interno */
+  width: 50%; /* Largura de 50% da tela (ajuste conforme necessário) */
+  margin: 20px auto; /* Centraliza horizontalmente */
+  border-radius: 10px; /* Cantos arredondados */
+  background-color: #f9f9f9; /* Cor de fundo suave */
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+.bloco-profissional {
+  border: 2px solid #000; /* Borda preta de 2px */
+  padding: 15px; /* Espaçamento interno */
+  width: 50%; /* Largura de 50% da tela (ajuste conforme necessário) */
+  margin: 20px auto; /* Centraliza horizontalmente */
+  border-radius: 10px; /* Cantos arredondados */
+  background-color: #f9f9f9; /* Cor de fundo suave */
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+.bloco-skills {
+  border: 2px solid #000; /* Borda preta de 2px */
+  padding: 15px; /* Espaçamento interno */
+  width: 50%; /* Largura de 50% da tela (ajuste conforme necessário) */
+  margin: 20px auto; /* Centraliza horizontalmente */
+  border-radius: 10px; /* Cantos arredondados */
+  background-color: #f9f9f9; /* Cor de fundo suave */
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+.bloco-cursos {
+  border: 2px solid #000; /* Borda preta de 2px */
+  padding: 15px; /* Espaçamento interno */
+  width: 50%; /* Largura de 50% da tela (ajuste conforme necessário) */
+  margin: 20px auto; /* Centraliza horizontalmente */
+  border-radius: 10px; /* Cantos arredondados */
+  background-color: #f9f9f9; /* Cor de fundo suave */
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+h2 {
+  text-align: center; /* Centraliza o título */
+  color: #333; /* Cor escura para o título */
+}
+
+ul {
+  list-style-type: none; /* Estiliza os marcadores da lista */
+  padding-left: 20px; /* Ajusta o recuo da lista */
+  text-align: center; 
+}
+
+b {
+  color: black; /* Destaca os nomes das instituições */
+}
+li { 
+    line-height: 1.8; 
+    text-align: left; 
+    .container {
+        text-align: center; /* Centraliza tudo */
+    }
+    list-style-type: disc; /* Define o bullet point padrão */
+}
+
+a {
+    text-decoration: none;
+}
+
+.bloco-vtex1 {
+  border: 2px solid #000; /* Borda preta de 2px */
+  padding: 15px; /* Espaçamento interno */
+  width: 50%; /* Largura de 50% da tela (ajuste conforme necessário) */
+  margin: 20px auto; /* Centraliza horizontalmente */
+  border-radius: 10px; /* Cantos arredondados */
+  background-color: #f9f9f9; /* Cor de fundo suave */
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Sombra leve */
+  
+}
+
+.bloco-vtex2 {
+  border: 2px solid #000; /* Borda preta de 2px */
+  padding: 15px; /* Espaçamento interno */
+  width: 50%; /* Largura de 50% da tela (ajuste conforme necessário) */
+  margin: 20px auto; /* Centraliza horizontalmente */
+  border-radius: 10px; /* Cantos arredondados */
+  background-color: #f9f9f9; /* Cor de fundo suave */
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Sombra leve */
+  
+}
+
+.bloco-appzinho {
+  border: 2px solid #000; /* Borda preta de 2px */
+  padding: 15px; /* Espaçamento interno */
+  width: 50%; /* Largura de 50% da tela (ajuste conforme necessário) */
+  margin: 20px auto; /* Centraliza horizontalmente */
+  border-radius: 10px; /* Cantos arredondados */
+  background-color: #f9f9f9; /* Cor de fundo suave */
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+footer {
+  padding-bottom: 50px; /* Espaço extra dentro do rodapé */
+  margin-bottom: 50px; /* Espaço extra abaixo do rodapé */
+  text-align: center;
+  width: 100%;
+  background: white;
+  color: black;
+  padding: 20px;
+  b {
+    color: black; /* Destaca os nomes das instituições */
+  }
+}
