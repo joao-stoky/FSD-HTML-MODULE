@@ -77,7 +77,7 @@ h2 {
 ul {
   list-style-type: none; /* Estiliza os marcadores da lista */
   padding-left: 20px; /* Ajusta o recuo da lista */
-  
+  text-align: center; 
 }
 
 b {
@@ -85,14 +85,47 @@ b {
 }
 li { 
     line-height: 1.8; 
-    text-align: center; 
+    text-align: left; 
     .container {
         text-align: center; /* Centraliza tudo */
     }
+    list-style-type: disc; /* Define o bullet point padrão */
 }
 
 a {
     text-decoration: none;
+}
+
+.bloco-vtex1 {
+  border: 2px solid #000; /* Borda preta de 2px */
+  padding: 15px; /* Espaçamento interno */
+  width: 50%; /* Largura de 50% da tela (ajuste conforme necessário) */
+  margin: 20px auto; /* Centraliza horizontalmente */
+  border-radius: 10px; /* Cantos arredondados */
+  background-color: #f9f9f9; /* Cor de fundo suave */
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Sombra leve */
+  
+}
+
+.bloco-vtex2 {
+  border: 2px solid #000; /* Borda preta de 2px */
+  padding: 15px; /* Espaçamento interno */
+  width: 50%; /* Largura de 50% da tela (ajuste conforme necessário) */
+  margin: 20px auto; /* Centraliza horizontalmente */
+  border-radius: 10px; /* Cantos arredondados */
+  background-color: #f9f9f9; /* Cor de fundo suave */
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Sombra leve */
+  
+}
+
+.bloco-appzinho {
+  border: 2px solid #000; /* Borda preta de 2px */
+  padding: 15px; /* Espaçamento interno */
+  width: 50%; /* Largura de 50% da tela (ajuste conforme necessário) */
+  margin: 20px auto; /* Centraliza horizontalmente */
+  border-radius: 10px; /* Cantos arredondados */
+  background-color: #f9f9f9; /* Cor de fundo suave */
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Sombra leve */
 }
 
 footer {
