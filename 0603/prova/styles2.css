@@ -1,0 +1,116 @@
+/* Estilos Gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px; /* Largura máxima para telas maiores */
+}
+
+.input-group {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+button {
+    width: 48%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+button[type="submit"] {
+    background-color: #3498db;
+    color: white;
+}
+
+button[type="reset"] {
+    background-color: #e74c3c;
+    color: white;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Media Queries para Responsividade */
+
+/* Para telas pequenas (móvel) - largura máxima de 768px */
+@media (max-width: 768px) {
+    .form-container {
+        padding: 15px;
+    }
+
+    input, button {
+        font-size: 16px;
+    }
+
+    button {
+        width: 100%;  /* Botões ocupando 100% da largura */
+        margin-top: 10px;
+    }
+}
+
+/* Para telas médias (tablet) - largura máxima de 1024px */
+@media (max-width: 1024px) {
+    .form-container {
+        padding: 20px;
+    }
+
+    button {
+        width: 48%;  /* Botões ocupando 48% da largura, lado a lado */
+    }
+}
+
+/* Para telas maiores (desktop) - Largura fixa e centralizado */
+@media (min-width: 1025px) {
+    .form-container {
+        width: 500px;  /* Largura fixa */
+        padding: 30px;
+    }
+
+    button {
+        width: 48%;  /* Botões ocupando 48% da largura, lado a lado */
+    }
+}

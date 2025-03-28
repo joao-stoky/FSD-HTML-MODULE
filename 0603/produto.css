@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+}
+
+.product-container {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+    gap: 20px; /* Espaço entre imagem e texto */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.product-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.product-price {
+    font-size: 28px;
+    color: #e74c3c;
+    margin-bottom: 20px;
+}
+
+.installment {
+    font-size: 16px;
+    color: #666;
+}
+
+.product-details {
+    margin-bottom: 20px;
+}
+
+.product-details p {
+    margin: 5px 0;
+}
+
+.action-buttons {
+    margin-bottom: 20px;
+}
+
+.action-buttons button {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.action-buttons button:hover {
+    background-color: #2980b9;
+}
+
+.shipping-calculator {
+    margin-bottom: 20px;
+}
+
+.shipping-calculator input {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.shipping-calculator button {
+    padding: 8px 16px;
+    font-size: 14px;
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.shipping-calculator button:hover {
+    background-color: #27ae60;
+}
+
+.share-icons {
+    margin-bottom: 20px;
+}
+
+.share-icons span {
+    font-size: 24px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.product-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+}
+
+.product-image {
+    max-width: 350px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+    border-radius: 10px; /* Bordas arredondadas */
+    
+}
+
+.product-info {
+    flex: 1; /* Faz o conteúdo ocupar o espaço restante */
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 10%;
+    height: 80px;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra na parte de baixo */
+  }
+  
+  header nav, header ul {
+    height: 100%;
+  }
+  
+  header nav ul li {
+    display: flex;
+    width: 6rem;
+  }
+  
+  header nav ul li a {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    transition: 0.3s;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    display: flex;
+    gap: 1px;
+  }
