@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Página Responsiva</title>
+    <style>
+        /* Definindo as variáveis no :root */
+        :root {
+            /* Tamanhos para telas grandes */
+            --font-size-large: 24px;
+            --font-size-medium: 18px;
+            --font-size-small: 14px;
+            --spacing-large: 40px;
+            --spacing-medium: 30px;
+            --spacing-small: 20px;
+        }
+
+        /* Aplicando as variáveis */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            font-size: var(--font-size-medium);
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        h1, h2, h3 {
+            margin-bottom: var(--spacing-medium);
+        }
+
+        h1 {
+            font-size: var(--font-size-large);
+        }
+
+        h2 {
+            font-size: var(--font-size-medium);
+        }
+
+        h3 {
+            font-size: var(--font-size-small);
+        }
+
+        p {
+            margin-bottom: var(--spacing-small);
+        }
+
+        /* Media Query para telas pequenas */
+        @media (max-width: 600px) {
+            :root {
+                --font-size-large: 20px;
+                --font-size-medium: 16px;
+                --font-size-small: 12px;
+                --spacing-large: 30px;
+                --spacing-medium: 20px;
+                --spacing-small: 15px;
+            }
+
+            h1 {
+                font-size: var(--font-size-medium);
+            }
+
+            h2 {
+                font-size: var(--font-size-small);
+            }
+
+            p {
+                font-size: var(--font-size-small);
+            }
+        }
+
+        /* Media Query para telas médias (tablet) */
+        @media (min-width: 601px) and (max-width: 1024px) {
+            :root {
+                --font-size-large: 22px;
+                --font-size-medium: 18px;
+                --font-size-small: 14px;
+                --spacing-large: 35px;
+                --spacing-medium: 25px;
+                --spacing-small: 18px;
+            }
+
+            h1 {
+                font-size: var(--font-size-medium);
+            }
+
+            h2 {
+                font-size: var(--font-size-small);
+            }
+        }
+
+        /* Media Query para telas grandes */
+        @media (min-width: 1025px) {
+            :root {
+                --font-size-large: 24px;
+                --font-size-medium: 18px;
+                --font-size-small: 14px;
+                --spacing-large: 40px;
+                --spacing-medium: 30px;
+                --spacing-small: 20px;
+            }
+
+            h1 {
+                font-size: var(--font-size-large);
+            }
+
+            h2 {
+                font-size: var(--font-size-medium);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Exemplo de Página Responsiva</h1>
+    </header>
+    <main>
+        <h2>Seção de Texto</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet lacus at ipsum volutpat interdum.</p>
+        <h3>Subtítulo</h3>
+        <p>Aliquam erat volutpat. Sed cursus elit at nisi feugiat, at dapibus est vestibulum.</p>
+    </main>
+</body>
+</html>
