@@ -1,0 +1,68 @@
+h1{ background-color: aquamarine;
+text-align: center;}
+nav ul {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    display: flex; /* Exibe os itens na horizontal */
+    justify-content: center; /* Centraliza os links */
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding: 10px;
+}
+main {
+
+        width: 80%; /* Define a largura do conteúdo */
+        margin: 40px auto; /* Margens superior e inferior de 40px, centralizado */
+        font-size: 18px; /* Define o tamanho da fonte */
+        line-height: 1.6; /* Melhora a leitura aumentando o espaçamento entre linhas */
+        background-color: #f9f9f9; /* Cor de fundo leve */
+        padding: 20px; /* Espaçamento interno */
+        border-radius: 8px; /* Bordas arredondadas */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+footer { background-color: aquamarine;
+text-align: center;}
+
+/* Estilos padrão para telas grandes */
+main {
+    width: 80%;
+    max-width: 1200px;
+    margin: 40px auto;
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* 📌 Ajustes para tablets (telas menores que 768px) */
+@media screen and (max-width: 768px) {
+    main {
+        width: 90%;
+        padding: 15px;
+        font-size: 16px;
+    }
+}
+
+/* 📌 Ajustes para celulares (telas menores que 480px) */
+@media screen and (max-width: 480px) {
+    main {
+        width: 95%;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    p {
+        text-align: justify;
+    }
+}
