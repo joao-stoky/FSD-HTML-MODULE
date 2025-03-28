@@ -1,0 +1,70 @@
+
+/* 
+seletor {
+    propriedade: valor;
+}
+
+Tipos de Propriedades:
+-> Dimensionamento
+    - width
+    - height
+    - border
+    - margin
+    - padding
+
+- Decoração
+    - color
+    - background-color
+    - font-size
+    - font-family
+    - border-radius
+
+- Posicionamento
+
+
+*/
+/* Reset de CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Seletor de Tag */
+body {
+    background-color: #FAFAFA;
+}
+main {
+    flex-direction: row;
+    display: flex;
+    /* justify-content vai alinhar os itens no eixo principal */
+    justify-content: center;
+    gap:2rem;
+    /* align-items vai alinhar os itens no eixo tranversal */
+    align-items: center;
+    height: 100vh;
+   
+}
+/* Seletor de Classe */
+.box {
+    color: white;
+    justify-content: center;
+    align-items: center; 
+    width: 10rem;
+    height: 10rem;
+    display:flex;
+justify-content: ;    border: 1px solid black;
+}
+
+/* Seletor de ID */
+#red {
+    background-color: red;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#green {
+    background-color: green;
+}
